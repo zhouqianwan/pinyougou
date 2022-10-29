@@ -1,0 +1,214 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    height: 745px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.header .logo a img {
+    width: 173px;
+    margin-top: 17px;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    width: 1200px;
+    border: 1px solid #ccc;
+}
+
+.registerarea nav {
+    padding: 0 10px;
+    height: 41px;
+    line-height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+}
+
+.registerarea nav h3 {
+    float: left;
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+}
+
+.registerarea nav .login {
+    font-size: 14px;
+    color: #333;
+    float: right;
+}
+
+.login .registe {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 560px;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.reg_form ul li {
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 85px;
+    height: 36px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.reg_form ul li .input {
+    padding-left: 10px;
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li span {
+    margin-left: 10px;
+}
+
+.error_icon,
+.right_icon {
+    margin-right: 3px;
+    margin-top: -1px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error_icon.png) no-repeat;
+}
+
+.right_icon {
+    background: url(../images/right_icon.png) no-repeat;
+}
+
+.safe {
+    margin-left: 158px;
+}
+
+.safe em {
+    display: inline-block;
+    height: 13px;
+    line-height: 13px;
+    padding: 0 12px;
+    color: #fff;
+    margin-right: 1px;
+}
+
+.safe em:nth-child(1) {
+    background-color: #de1111;
+    margin-left: 10px;
+}
+
+.safe em:nth-child(2) {
+    background-color: #40b83f;
+}
+
+.safe em:nth-child(3) {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-left: 85px;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.submit {
+    margin-left: 105px;
+}
+
+.submit input {
+    width: 200px;
+    font-size: 14px;
+    height: 34px;
+    color: #fff;
+    background-color: #c81623;
+}
+
+
+/* footer  */
+
+.mod_help {
+    margin-top: 21px;
+    padding-left: 52px;
+    height: 188px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dt {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.mod_help dd {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+}
+
+.mod_help .wx_pic {
+    text-align: center;
+    width: 95px;
+}
+
+.mod_help .wx_pic img {
+    width: 95px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+    height: 119px;
+    font-size: 12px;
+    color: #666;
+}
+
+.links {
+    height: 28px;
+}
+
+.links a {
+    margin: 0 16px;
+}
+
+.mod_copyright .copyright {
+    line-height: 21px;
+}

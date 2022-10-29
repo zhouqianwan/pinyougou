@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+        
+        ul {
+            width: 100px;
+            margin: 0 auto;
+        }
+        
+        li {
+            list-style: none;
+            width: 100px;
+            height: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        ul div {
+            width: 120px;
+            height: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        ul li:nth-of-type(2) {
+            background-color: orange;
+        }
+        
+        a::after {
+            content: '\9364';
+            font-family: 'icomoon';
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <div class="nav">nav</div>
+        <li>1</li>
+        <div class="box">box</div>
+        <li>2</li>
+        <div class="nav">nav</div>
+        <li>3</li>
+    </ul>
+</body>
+
+</html>
